@@ -163,3 +163,39 @@ img {
 .page4-text {
     font-size: 18px;
 }
+
+
+.footer-section {
+    background-color:  rgb(65, 76, 77);
+    padding: 40px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    height: 150px;
+align-content: space-around;
+}
+.footer-item {
+    width: 200px;
+}
+.footer-btn {
+    background-color: rgb(245, 239, 231);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+
+}
+.footer-link {
+    text-decoration: none;
+    color: rgb(57, 62, 62);
+    padding: 15px;
+}
+.footer-text {
+    text-align: right;
+    color: #d4d3d3;
+}
